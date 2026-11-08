@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Blog Gallery</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:48px 24px;background:#0d0f12;color:#e6e8eb;
+     font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC",sans-serif}
+.wrap{max-width:860px;margin:0 auto}
+h1{font-size:28px;font-weight:600;margin:0 0 6px}
+.sub{color:#8b949e;font-size:14px;margin:0 0 36px}
+ul{list-style:none;padding:0;margin:0}
+li{border:1px solid #21262d;border-radius:10px;margin-bottom:10px;background:#14171c;
+   transition:border-color .15s,background .15s}
+li:hover{border-color:#3d8bfd;background:#171b21}
+a.card{display:flex;align-items:baseline;gap:12px;padding:16px 18px;
+       text-decoration:none;color:inherit;flex-wrap:wrap}
+.name{font-size:17px;font-weight:600;color:#e6e8eb}
+.path{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;color:#6e7681}
+.port{margin-left:auto;font:12px/1 ui-monospace,monospace;color:#8b949e;
+      border:1px solid #30363d;border-radius:5px;padding:4px 8px;white-space:nowrap}
+.note{margin-top:34px;padding-top:20px;border-top:1px solid #21262d;
+      color:#6e7681;font-size:13px}
+.note code{font:12px ui-monospace,monospace;color:#8b949e;
+           background:#1c2128;padding:1px 5px;border-radius:4px}
+.dim{opacity:.55}
+.dim li:hover{border-color:#21262d;background:#14171c}
+.dim .inner{display:flex;align-items:baseline;gap:12px;padding:14px 18px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Blog Gallery</h1>
+    <p class="sub">6 个站点 · 从 /root/a-boss-all 的快照解包 · 共 21,020 个文件</p>
+    <ul>
+      <li><a class="card" href="https://royfu-rl.github.io/"><span class="name">Homepage</span><span class="path">https://royfu-rl.github.io/</span></a></li>
+      <li><a class="card" href="https://royfu-rl.github.io/kat-coder-v25/index.html"><span class="name">KAT-Coder V2.5</span><span class="path">https://royfu-rl.github.io/kat-coder-v25/index.html</span></a></li>
+      <li><a class="card" href="https://royfu-rl.github.io/kling-critic/index.html"><span class="name">Kling-Critic</span><span class="path">https://royfu-rl.github.io/kling-critic/index.html</span></a></li>
+      <li><a class="card" href="https://royfu-rl.github.io/visual-coding/index.html"><span class="name">Visual Coding</span><span class="path">https://royfu-rl.github.io/visual-coding/index.html</span></a></li>
+      <li><a class="card" href="https://royfu-rl.github.io/visual-coder-blog/index.html"><span class="name">Visual Coder</span><span class="path">https://royfu-rl.github.io/visual-coder-blog/index.html</span></a></li>
+      <li><a class="card" href="https://royfu-rl.github.io/visual-coding-deep-research/index.html"><span class="name">Visual Coding · Deep Research</span><span class="path">https://royfu-rl.github.io/visual-coding-deep-research/index.html</span></a></li>
+    </ul>
+    <p class="note">各站独立部署在 GitHub Pages，点击卡片直达。</p>
+  </div>
+</body>
+</html>
